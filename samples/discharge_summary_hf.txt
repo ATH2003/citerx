@@ -1,0 +1,37 @@
+DISCHARGE SUMMARY
+
+Synthetic record for the CiteRx demo. The patient, clinicians and hospital are fictional.
+
+Patient: R. Menon, 67-year-old male. Admitted 3 March 2026, discharged 8 March 2026.
+
+Presenting Complaint
+
+Three days of increasing breathlessness, orthopnoea and ankle swelling.
+
+Diagnosis
+
+Acute decompensated heart failure with reduced ejection fraction. Echocardiogram showed an ejection fraction of 32%.
+Precipitant thought to be non-adherence to furosemide and a high-salt diet.
+
+Hospital Course
+
+Treated with intravenous furosemide 40 mg twice daily with good diuresis; weight fell from 84 kg to 79 kg.
+Admission eGFR was 52 mL/min/1.73m2 and discharge eGFR was 49 mL/min/1.73m2.
+Admission potassium was 4.1 mmol/L and discharge potassium was 4.6 mmol/L.
+Chest X-ray on admission showed bilateral pleural effusions and upper lobe diversion, which improved by discharge.
+
+Discharge Medications
+
+Furosemide 40 mg orally once daily in the morning.
+Ramipril 2.5 mg once daily.
+Bisoprolol 1.25 mg once daily, to be increased gradually by the heart failure team.
+Dapagliflozin 10 mg once daily.
+Metformin 500 mg twice daily, continued at the reduced dose because of eGFR.
+
+WARNING: Allergic to penicillin (rash). Do not prescribe amoxicillin or other penicillins.
+
+Follow-Up
+
+Blood test for potassium and eGFR in 1 week with the GP.
+Heart failure nurse review in 2 weeks for bisoprolol titration.
+Daily weights at home; the patient should call the clinic if weight rises by more than 2 kg in 3 days.

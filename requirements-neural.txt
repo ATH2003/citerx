@@ -1,0 +1,3 @@
+# Optional: neural embeddings (MiniLM) and cross-encoder reranking. Pulls in PyTorch.
+-r requirements.txt
+sentence-transformers>=3.0

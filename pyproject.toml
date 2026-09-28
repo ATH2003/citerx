@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "citerx"
+version = "0.1.0"
+description = "Clinical document Q&A where every answer is cited and every claim is checked against its source."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Amogh Athreya H" }]
+dependencies = ["numpy>=1.26", "scikit-learn>=1.3", "pypdf>=3.17"]
+
+[project.optional-dependencies]
+app = ["streamlit>=1.36"]
+neural = ["sentence-transformers>=3.0"]
+dev = ["pytest>=8", "ruff>=0.5"]
+
+[project.scripts]
+citerx = "citerx.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["citerx*"]
+
+[tool.setuptools.package-data]
+citerx = ["eval/dataset.json"]
+
+[tool.pytest.ini_options]
+pythonpath = [".", "tests"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"

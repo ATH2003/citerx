@@ -1,0 +1,42 @@
+HYPERTENSION IN ADULTS: PRIMARY CARE PATHWAY
+
+Synthetic sample document written for the CiteRx demo. For illustration only; not clinical guidance.
+
+1 Diagnosis
+
+Hypertension is confirmed when clinic blood pressure is 140/90 mmHg or higher and ambulatory or home monitoring gives an average of 135/85 mmHg or higher.
+Offer ambulatory blood pressure monitoring to confirm the diagnosis whenever clinic readings are raised.
+Clinic blood pressure of 180/120 mmHg or higher is severe hypertension and needs same-day assessment for target organ damage.
+
+2 Treatment Targets
+
+For adults under 80 years, aim for a clinic blood pressure below 140/90 mmHg.
+For adults aged 80 and over, aim for a clinic blood pressure below 150/90 mmHg.
+In people with diabetes or chronic kidney disease with proteinuria, a target below 130/80 mmHg is commonly used.
+
+3 Lifestyle Measures
+
+Advise reducing salt intake to less than 6 g per day, regular aerobic exercise, weight loss if overweight, limiting alcohol, and stopping smoking.
+Lifestyle advice should continue alongside medication.
+
+4 First-Line Medication
+
+For adults under 55 without African or African-Caribbean family origin, and for anyone with diabetes, start an ACE inhibitor or an angiotensin II receptor blocker (ARB).
+For adults aged 55 and over, or of African or African-Caribbean family origin without diabetes, start a calcium channel blocker such as amlodipine.
+Typical starting doses are ramipril 2.5 mg once daily or amlodipine 5 mg once daily.
+
+WARNING: ACE inhibitors and ARBs are contraindicated in pregnancy and should be stopped as soon as pregnancy is confirmed.
+Do not combine an ACE inhibitor with an ARB, because the combination increases the risk of hyperkalaemia and acute kidney injury.
+
+Check serum potassium and eGFR before starting an ACE inhibitor or ARB and again 1 to 2 weeks after starting or after each dose increase.
+Stop the ACE inhibitor if the patient develops angioedema; do not re-challenge.
+
+5 Step-Up Treatment
+
+If blood pressure is not controlled on one drug, add a second drug from a different class: an ACE inhibitor or ARB plus a calcium channel blocker or a thiazide-like diuretic such as indapamide.
+If three drugs fail to control blood pressure, this is resistant hypertension; check adherence and consider adding low-dose spironolactone if potassium is 4.5 mmol/L or lower.
+
+6 Monitoring
+
+Review patients monthly after starting or changing treatment until blood pressure is at target, then at least once a year.
+Measure blood pressure in both arms at the first visit and use the arm with the higher reading from then on.

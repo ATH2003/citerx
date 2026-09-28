@@ -1,0 +1,20 @@
+[
+  {"id": "t2d-01", "question": "What are the renal contraindications for metformin?", "source": "type2_diabetes_protocol.md", "section": "4.1", "must_include": ["30", "lactic acidosis"], "requires_warning": true},
+  {"id": "t2d-02", "question": "What is the maximum daily dose of metformin?", "source": "type2_diabetes_protocol.md", "section": "4.1", "must_include": ["2000 mg"]},
+  {"id": "t2d-03", "question": "What HbA1c confirms a diagnosis of type 2 diabetes?", "source": "type2_diabetes_protocol.md", "section": "2.", "must_include": ["6.5%"]},
+  {"id": "t2d-04", "question": "What HbA1c target is appropriate for frail older adults?", "source": "type2_diabetes_protocol.md", "section": "3.", "must_include": ["8.0%"]},
+  {"id": "t2d-05", "question": "How should hypoglycaemia be treated in a conscious patient?", "source": "type2_diabetes_protocol.md", "section": "5.", "must_include": ["15 to 20 g", "15 minutes"]},
+  {"id": "t2d-06", "question": "When should SGLT2 inhibitors be stopped before surgery?", "source": "type2_diabetes_protocol.md", "section": "4.3", "must_include": ["3 days"], "requires_warning": true},
+  {"id": "t2d-07", "question": "What should be done with metformin before iodinated contrast?", "source": "type2_diabetes_protocol.md", "section": "4.2", "must_include": ["48 hours"], "requires_warning": true},
+  {"id": "htn-01", "question": "What is the blood pressure threshold for severe hypertension?", "source": "hypertension_pathway.txt", "section": "1 Diagnosis", "must_include": ["180/120"]},
+  {"id": "htn-02", "question": "What is the blood pressure target for adults aged 80 and over?", "source": "hypertension_pathway.txt", "section": "2 Treatment", "must_include": ["150/90"]},
+  {"id": "htn-03", "question": "Can an ACE inhibitor be combined with an ARB?", "source": "hypertension_pathway.txt", "section": "4 First-Line", "must_include": ["hyperkalaemia"], "requires_warning": true},
+  {"id": "htn-04", "question": "What is the starting dose of ramipril?", "source": "hypertension_pathway.txt", "section": "4 First-Line", "must_include": ["2.5 mg"], "requires_warning": true},
+  {"id": "htn-05", "question": "When should spironolactone be considered for resistant hypertension?", "source": "hypertension_pathway.txt", "section": "5 Step-Up", "must_include": ["4.5 mmol/L"]},
+  {"id": "dc-01", "question": "What medications was the patient discharged on?", "source": "discharge_summary_hf.txt", "section": "Discharge Medications", "must_include": ["Furosemide", "Ramipril", "Bisoprolol", "Dapagliflozin"]},
+  {"id": "dc-02", "question": "What was the patient's ejection fraction on echocardiogram?", "source": "discharge_summary_hf.txt", "section": "Diagnosis", "must_include": ["32%"]},
+  {"id": "dc-03", "question": "Does the patient have any drug allergies?", "source": "discharge_summary_hf.txt", "section": "Discharge Medications", "must_include": ["penicillin"], "requires_warning": true},
+  {"id": "dc-04", "question": "What was the eGFR at discharge?", "source": "discharge_summary_hf.txt", "section": "Hospital Course", "must_include": ["49"]},
+  {"id": "neg-01", "question": "What is the recommended dose of warfarin for atrial fibrillation?", "answerable": false},
+  {"id": "neg-02", "question": "Who won the football world cup in 2022?", "answerable": false}
+]
