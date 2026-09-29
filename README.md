@@ -7,6 +7,7 @@
 Ask questions about clinical guidelines, discharge summaries and lab reports.<br>
 Every answer is cited, every sentence is checked against its source, and every invented number is caught.
 
+[![CI](https://github.com/ATH2003/citerx/actions/workflows/ci.yml/badge.svg)](https://github.com/ATH2003/citerx/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.10%2B-3776AB?logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/UI-Streamlit-FF4B4B?logo=streamlit&logoColor=white)
 ![Offline](https://img.shields.io/badge/runs-fully%20offline-0F766E)
@@ -73,7 +74,7 @@ Result:  🔴 unsupported · support 78% · numbers not in source: 1500
 ## Quick start
 
 ```bash
-git clone https://github.com/<your-username>/citerx.git
+git clone https://github.com/ATH2003/citerx.git
 cd citerx
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
