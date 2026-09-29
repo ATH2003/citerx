@@ -35,7 +35,7 @@ THRESHOLDS = {
     "abstention_acc": 0.90,
     "safety_recall": 0.80,
 }
-_WARNING = re.compile(r"warning|caution|contraindicat|do not|avoid|allerg|risk", re.I)
+_WARNING = re.compile(r"warning|caution|contraindicat|do not|avoid|allerg|risk", re.IGNORECASE)
 
 
 def evaluate(use_llm: bool = False, docs_dir: Path = ROOT / "samples") -> dict:

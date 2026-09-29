@@ -48,10 +48,7 @@ def numbers(text: str) -> set[str]:
     """Numbers as written, normalised (commas → dots, trailing .0 dropped)."""
     out = set()
     for raw in _NUMBER.findall(text):
-        n = raw.replace(",", ".")
-        if n.endswith(".0"):
-            n = n[:-2]
-        out.add(n)
+        out.add(raw.replace(",", ".").removesuffix(".0"))
     return out
 
 

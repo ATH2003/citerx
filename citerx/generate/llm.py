@@ -36,4 +36,4 @@ def chat(messages: list[dict], base_url: str, model: str, api_key: str = "", tim
     except (KeyError, IndexError) as e:
         raise LLMError(f"Unexpected LLM response: {str(data)[:300]}") from e
     # Reasoning models (qwen3, deepseek-r1) may emit a thinking block first.
-    return re.sub(r"<think>.*?</think>", "", text, flags=re.S).strip()
+    return re.sub(r"<think>.*?</think>", "", text, flags=re.DOTALL).strip()

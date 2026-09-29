@@ -22,7 +22,7 @@ from citerx.models import ClaimCheck, ScoredChunk
 from citerx.text import content_tokens, numbers, sentences, stems
 
 CITATION = re.compile(r"\[(?:source\s*)?(\d+(?:\s*[,;]\s*(?:source\s*)?\d+)*)\]", re.IGNORECASE)
-ABSTAIN = re.compile(r"(not (?:found|covered|mentioned|stated|available)|no information|cannot (?:find|answer)|do(?:es)? not (?:contain|mention|say|answer|cover)\b)", re.I)
+ABSTAIN = re.compile(r"(not (?:found|covered|mentioned|stated|available)|no information|cannot (?:find|answer)|do(?:es)? not (?:contain|mention|say|answer|cover)\b)", re.IGNORECASE)
 
 
 def _stems(text: str) -> set[str]:
@@ -62,7 +62,7 @@ def _claims(answer: str) -> list[tuple[str, list[int]]]:
     marker in the same paragraph, since models often cite once at the end of a run."""
     out: list[tuple[str, list[int]]] = []
     for para in re.split(r"\n\s*\n", answer):
-        sents = [s for s in sentences(para) if not re.match(r"^\s*(sources?|references?)\s*:", s, re.I)]
+        sents = [s for s in sentences(para) if not re.match(r"^\s*(sources?|references?)\s*:", s, re.IGNORECASE)]
         pending: list[str] = []
         for s in sents:
             ids = cited_ids(s)
