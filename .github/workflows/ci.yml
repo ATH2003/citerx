@@ -9,6 +9,7 @@ jobs:
   test-and-gate:
     runs-on: ubuntu-latest
     strategy:
+      fail-fast: false
       matrix:
         python-version: ["3.11", "3.12"]
     steps:
@@ -20,7 +21,7 @@ jobs:
       - name: Install
         run: pip install -r requirements-dev.txt
       - name: Lint
-        run: ruff check citerx tests app
+        run: ruff check --output-format=github citerx tests app
       - name: Unit tests
         run: pytest -q
       - name: Evaluation quality gate
